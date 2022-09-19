@@ -7,8 +7,8 @@ export const SITE = {
 	title: 'Sohail M. Khan — Portfolio',
 	description: '🚀 Profile Repository built on top of Astro + Tailwind CSS',
 
-	googleAnalyticsId: "G-HZC7MB7H9Z", // or false,
-	googleSiteVerificationId: false // or some value,
+	googleAnalyticsId: 'G-HZC7MB7H9Z', // or false,
+	googleSiteVerificationId: 'phie4sohShe-ahv7ahKe1thoo2le_Ohxooy1eiGhaem', // or false,
 };
 
 export const BLOG = {

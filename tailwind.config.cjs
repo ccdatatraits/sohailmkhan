@@ -10,7 +10,7 @@ module.exports = {
 				secondary: colors.pink,
 			},
 			fontFamily: {
-				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
+				sans: ["'Nunito'", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
@@ -35,7 +35,7 @@ module.exports = {
 //         secondary: colors.lime,
 //       },
 //       fontFamily: {
-//         sans: ["'Nunito'", ...defaultTheme.fontFamily.sans],
+//         sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
 //       },
 //     },
 //   },
