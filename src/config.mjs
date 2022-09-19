@@ -1,14 +1,14 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'Sohail M. Khan',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://sohailmkhan.netlify.app',
 	basePathname: '/',
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'Sohail M. Khan — Portfolio',
+	description: '🚀 Profile Repository built on top of Astro + Tailwind CSS',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleAnalyticsId: "G-HZC7MB7H9Z", // or false,
+	googleSiteVerificationId: false // or some value,
 };
 
 export const BLOG = {
@@ -22,7 +22,7 @@ export const BLOG = {
 
 	post: {
 		disabled: false,
-		pathname: '', // empty for /some-post, value for /pathname/some-post 
+		pathname: 'blog', // empty for /some-post, value for /pathname/some-post 
 	},
 
 	category: {
