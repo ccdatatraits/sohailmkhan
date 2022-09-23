@@ -7,8 +7,6 @@ import image from '@astrojs/image';
 import partytown from '@astrojs/partytown';
 import { SITE } from './src/config.mjs';
 import netlify from "@astrojs/netlify/functions";
-import svelte from "@astrojs/svelte";
-import react from "@astrojs/react";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -19,7 +17,7 @@ export default defineConfig({
   // Astro uses this full URL to generate your sitemap and canonical URLs in your final build
   site: SITE.origin,
   base: SITE.basePathname,
-  output: 'server',
+  output: 'static',
   integrations: [tailwind({
     config: {
       applyBaseStyles: false
@@ -30,7 +28,7 @@ export default defineConfig({
     config: {
       forward: ['dataLayer.push']
     }
-  }), svelte(), react()],
+  })],
   vite: {
     resolve: {
       alias: {
