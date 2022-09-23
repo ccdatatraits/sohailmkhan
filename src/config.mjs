@@ -4,6 +4,42 @@ export const SITE = {
 	origin: 'https://sohailmkhan.netlify.app',
 	basePathname: '/',
 
+	githubName: 'Github',
+	githubURL: 'https://github.com/ccdatatraits',
+
+	urls: {
+		features: '#',
+		security: '#',
+		team: '#',
+		enterprise: '#',
+		customerStories: '#',
+		pricing: '#',
+		resources: '#',
+		developerAPI: '#',
+		partners: '#',
+		atom: '#',
+		electron: '#',
+		githubDesktop: '#',
+		docs: '#',
+		communityForum: '#',
+		professionalServices: '#',
+		skills: '#',
+		status: '#',
+		about: '#',
+		blog: '#',
+		careers: '#',
+		press: '#',
+		inclusion: '#',
+		socialImpact: '#',
+		shop: '#',
+	},
+	
+	socialURLs: {
+		twitter: '',
+		instagram: '',
+		facebook: '',
+	},
+
 	title: 'Sohail M. Khan — Portfolio',
 	description: '🚀 Profile Repository built on top of Astro + Tailwind CSS',
 
@@ -12,7 +48,7 @@ export const SITE = {
 };
 
 export const BLOG = {
-	disabled: false,
+	disabled: true,
 	postsPerPage: 4,
 
 	blog: {

@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
+import { SITE } from '~/config.mjs';
 import { getHomePermalink } from '~/utils/permalinks';
 ---
 
@@ -25,37 +26,37 @@ import { getHomePermalink } from '~/utils/permalinks';
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Product</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.features}
 							>Features</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.security}
 							>Security</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.team}
 							>Team</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.enterprise}
 							>Enterprise</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.customerStories}
 							>Customer stories</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.pricing}
 							>Pricing</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.resources}
 							>Resources</a
 						>
 					</li>
@@ -65,27 +66,27 @@ import { getHomePermalink } from '~/utils/permalinks';
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Platform</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.developerAPI}
 							>Developer API</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.partners}
 							>Partners</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.atom}
 							>Atom</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.electron}
 							>Electron</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.githubDesktop}
 							>GitHub Desktop</a
 						>
 					</li>
@@ -95,27 +96,27 @@ import { getHomePermalink } from '~/utils/permalinks';
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Support</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.docs}
 							>Docs</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.communityForum}
 							>Community Forum</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.professionalServices}
 							>Professional Services</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.skills}
 							>Skills</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.status}
 							>Status</a
 						>
 					</li>
@@ -125,37 +126,37 @@ import { getHomePermalink } from '~/utils/permalinks';
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Company</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.about}
 							>About</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.blog}
 							>Blog</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.careers}
 							>Careers</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.press}
 							>Press</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.inclusion}
 							>Inclusion</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.socialImpact}
 							>Social Impact</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={SITE.urls.shop}
 							>Shop</a
 						>
 					</li>
@@ -168,7 +169,7 @@ import { getHomePermalink } from '~/utils/permalinks';
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 						aria-label="Twitter"
-						href="#"
+						href={SITE.socialURLs.twitter}
 					>
 						<Icon name="tabler:brand-twitter" class="w-5 h-5" />
 					</a>
@@ -177,7 +178,7 @@ import { getHomePermalink } from '~/utils/permalinks';
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 						aria-label="Instagram"
-						href="#"
+						href={SITE.socialURLs.instagram}
 					>
 						<Icon name="tabler:brand-instagram" class="w-5 h-5" />
 					</a>
@@ -186,7 +187,7 @@ import { getHomePermalink } from '~/utils/permalinks';
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 						aria-label="Facebook"
-						href="#"
+						href={SITE.socialURLs.facebook}
 					>
 						<Icon name="tabler:brand-facebook" class="w-5 h-5" />
 					</a>
