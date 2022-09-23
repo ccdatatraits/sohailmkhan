@@ -13,6 +13,8 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
+import App from '~/components/App.jsx';
+
 const meta = {
 	title: SITE.title,
 	description: SITE.description,
@@ -21,6 +23,7 @@ const meta = {
 ---
 
 <Layout {meta}>
+	<App client:idle />
 	<Hero />
 	<Features />
 	<Steps />
